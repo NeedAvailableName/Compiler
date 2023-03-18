@@ -1,0 +1,16 @@
+Program Ex3;
+var n : Integer;
+var cnt : Integer; i : Integer;
+Begin
+    n := readi;
+    if n >= 10 break;
+    else 
+        Begin
+            var arr : array(.n.) of Integer;
+            cnt := 0;
+            for i := 1 to n do 
+                if arr(.i.) > arr(.0.)
+                    cnt := cnt + 1;
+        end;
+    call Writei(cnt);
+end.

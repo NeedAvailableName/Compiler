@@ -1,0 +1,18 @@
+Program Ex1;
+Var a : Integer; 
+    b : Integer;
+
+Begin
+    a := readi;
+    b := readi;
+    if a < b then
+	    Begin
+            Call WriteLn;
+            Call WriteI(b-a);
+        End
+    else
+        Begin 
+            Call WriteLn;
+            Call Writei(a-b);
+        End
+End.

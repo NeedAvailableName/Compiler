@@ -1,0 +1,15 @@
+Program Ex4;
+var n : Integer;
+sum : Integer; 
+i : Integer;
+arr : array(.10.) of Integer;
+Begin
+    n := readi;
+    sum := 0;
+    for i := n to 0 do
+        begin 
+            call Writei(arr(.i.)); 
+            sum := sum + 1;
+        end;
+    call Writei(sum);
+end.

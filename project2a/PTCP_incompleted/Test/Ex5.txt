@@ -1,0 +1,19 @@
+Program Ex5;
+var x : Integer; 
+y : Integer;
+check : Integer;
+arr : array(.10.) of array(.10.) of Integer;
+i : Integer; j : Integer;
+Begin
+    x := readi;
+    y := readi;
+    check := 1; 
+    for i := 0 to x do
+        for j := 0 to y do
+            arr(.i.)(.j.) := readi;
+    for i := 0 to x do
+        for j := x to y do 
+            if arr(.i.)(.j.) != 0 then check := 0;
+    call Writei(check);
+end.    
+     

@@ -1,0 +1,18 @@
+Program Ex2;
+var a : Integer;
+var b : Integer;
+var c : Integer;
+var cnt : Integer;
+Begin
+    a := readi;
+    b := readi;
+    c := readi;
+    cnt := 0;
+    if a > 20 
+        if a < 100 then cnt := cnt + 1;
+    if b > 20
+        if b < 100 then cnt := cnt + 1;
+    if c > 20
+        if c < 100 then cnt := cnt + 1;
+    call Writei(cnt);
+End.

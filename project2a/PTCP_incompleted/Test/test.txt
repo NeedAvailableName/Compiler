@@ -1,0 +1,10 @@
+Program test;
+var m : Integer; n : Integer;
+Function divisable(m : Integer, n : Integer);
+    Begin
+        if(m/n)*n = m then Call WriteI(1)
+        else Call WriteI(0);
+    End;
+Begin
+    m := readi();
+    

@@ -1,0 +1,23 @@
+Program Ex5;
+var x : Integer; y : Integer;
+Begin
+    x := readi;
+    y := readi;
+    bool check;
+    check := true;
+    if x != y break;
+    else 
+        Begin
+            var arr : array(.x, y.) of Integer;
+            var i : Integer; j : Integer;
+            for i := 0 to x do
+                for j := 0 to y do
+                    arr(.i.)(.j.) := readi;
+            for i := 0 to x do
+                for j := x to y do 
+                    if arr(.i.)(.j.) != 0 check := false;
+        end;
+    if(check = true) Writei(1);
+    else Writei(0);
+end.    
+     

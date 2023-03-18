@@ -1,0 +1,16 @@
+Program Ex4;
+var n : Integer;
+var sum : Integer; i : Integer;
+Begin
+    n := readi;
+    if n > 10 break;
+    else 
+        Begin
+            var arr : array(.n.) of Integer;
+            sum := 0;
+            for i := n to 0 do
+                call Writei(arr(.i.)); 
+                sum := sum + 1;
+        end;
+    call Writei(sum);
+end.
